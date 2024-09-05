@@ -33,6 +33,7 @@ header{
     padding: 22px 15%;
     border-bottom: 1px solid transparent;
     transition: all .45s ease;
+    background-color: var(--bg-color);
 }
 .logo{
     color: var(--text-color);
@@ -216,6 +217,12 @@ header.sticky{
     justify-content: space-between;
     padding-top: 50px;
 }
+.skills-set-2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    margin: 0 30% 0 30%;
+}
 .s-icon{
     display: flex;
     transition: all .45s ease;
@@ -230,7 +237,7 @@ header.sticky{
 }
 .portfolio-content{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+    grid-template-columns: repeat(3, minmax(150px, auto));
     align-items: center;
     gap: 2.5rem;
     margin-top: 5rem;
